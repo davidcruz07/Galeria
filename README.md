@@ -1,4 +1,38 @@
-# Galeria
+# 📸 Galería
+**Desarrollado por David Cruz**
+
+Aplicación web interactiva desarrollada con **Angular 18**, diseñada como un tablero dinámico de imágenes. El proyecto implementa un flujo de datos basado en servicios y persistencia en el lado del cliente.
+
+---
+
+## 🚀 Características
+* **Diseño Masonry/Grid:** Interfaz responsiva que imita el tablero de Pinterest mediante CSS Grid.
+* **Gestión de Imágenes:** Permite añadir nuevas fotografías mediante URL y eliminarlas de la colección.
+* **Sistema de Interacción:** Botón de "Like" funcional con actualización de estado en tiempo real.
+* **Contador Global:** Visualización del total de likes acumulados en toda la galería.
+* **Persistencia Local:** Uso de `LocalStorage` para que los datos se mantengan al recargar la página (Hydration-ready).
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+* **Framework:** Angular 18 (Componentes Standalone)
+* **Estilos:** CSS3 Moderno (Custom Properties y Grid Layout)
+* **Iconos:** FontAwesome (SVG)
+* **Lógica:** TypeScript
+
+---
+
+## 📂 Estructura del Proyecto
+```text
+src/app/
+├── components/
+│   ├── formulario/    # Desplegable para añadir imágenes
+│   └── foto-card/     # Componente de tarjeta con acciones
+├── services/
+│   └── galeria.ts     # Lógica de negocio y persistencia
+├── models/
+│   └── foto.model.ts  # Interfaz de datos
+└── app.component.html # Estructura principal con Navbar
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.6.
 
