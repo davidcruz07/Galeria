@@ -1,0 +1,6 @@
+<div class="form-container">
+  <input type="text" [(ngModel)]="titulo" placeholder="Nombre de la foto...">
+  <input type="text" [(ngModel)]="url" placeholder="URL de la imagen...">
+  
+  <button [disabled]="!titulo || !url" (click)="guardar()">Agregar Foto</button>
+</div>

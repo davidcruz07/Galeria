@@ -1,0 +1,18 @@
+<div class="card">
+  <img [src]="foto.url" [alt]="foto.titulo">
+  
+  <div class="card-info">
+    <p class="card-title">{{ foto.titulo }}</p>
+    
+    <div class="card-actions">
+      <button class="btn-action btn-like" (click)="darLike()">
+        <fa-icon [icon]="iconLike"></fa-icon>
+        <span>{{ foto.likes }}</span>
+      </button>
+      
+      <button class="btn-action btn-delete" (click)="eliminar()">
+        <fa-icon [icon]="iconEliminar"></fa-icon>
+      </button>
+    </div>
+  </div>
+</div>
