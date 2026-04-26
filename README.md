@@ -2,6 +2,10 @@
 **Desarrollado por David Cruz**
 
 Aplicación web interactiva desarrollada con **Angular 18**, diseñada como un tablero dinámico de imágenes. El proyecto implementa un flujo de datos basado en servicios y persistencia en el lado del cliente.
+<img width="1919" height="940" alt="image" src="https://github.com/user-attachments/assets/7b8051be-86db-4f7a-9af8-82eeb6ce1a6d" />
+<img width="1919" height="937" alt="image" src="https://github.com/user-attachments/assets/5d8d8253-25d1-436c-8b8b-702f1a43ed97" />
+<img width="1919" height="940" alt="image" src="https://github.com/user-attachments/assets/045e5467-cb90-4451-a1b7-36e12f97a2ea" />
+
 
 ---
 
