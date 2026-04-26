@@ -33,8 +33,7 @@ src/app/
 ├── models/
 │   └── foto.model.ts  # Interfaz de datos
 └── app.component.html # Estructura principal con Navbar
-
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.6.
+--
 
 ## Development server
 
