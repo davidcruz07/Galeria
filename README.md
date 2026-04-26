@@ -35,7 +35,22 @@ src/app/
 └── app.component.html # Estructura principal con Navbar
 ```
 ---
+## ⚙️ Instalación y Configuración
 
+```bash
+# 1. Clona el repositorio
+git clone [https://github.com/davidcruz07/Galeria.git](https://github.com/davidcruz07/Galeria.git)
+
+# 2. Entra a la carpeta del proyecto
+cd Galeria
+
+# 3. Instala las dependencias
+npm install
+
+# 4. Ejecuta el servidor de desarrollo
+ng serve
+
+---
 ## Development server
 
 To start a local development server, run:
