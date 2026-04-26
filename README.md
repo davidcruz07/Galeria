@@ -34,7 +34,7 @@ src/app/
 │   └── foto.model.ts  # Interfaz de datos
 └── app.component.html # Estructura principal con Navbar
 ```
---
+---
 
 ## Development server
 
